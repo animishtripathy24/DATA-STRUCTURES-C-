@@ -18,7 +18,7 @@ void bubbleSort(int *arr,int n)
 int main()
 {
     int n;
-    std::cin >> n;
+    cin >> n;
 
     int *arr=new int[n];
     //taking inputs into the array

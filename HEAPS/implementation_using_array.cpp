@@ -84,13 +84,13 @@ class Heap{
 
             if(leftChild < size && arr[i] < arr[leftChild])
             {
-            swap(arr[i],arr[leftChild]);
-            i=leftChild;
+                swap(arr[i],arr[leftChild]);
+                i=leftChild;
             }
             else if(rightChild < size && arr[i] < arr[leftChild])
             {
-            swap(arr[i],arr[rightChild]);
-            i=rightChild;
+                swap(arr[i],arr[rightChild]);
+                i=rightChild;
             }
             else{
                 return;
