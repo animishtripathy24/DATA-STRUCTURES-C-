@@ -8,7 +8,7 @@ int binarySearch(int a[],int n,int key)
 
     while(start<=end)
     {
-        int mid=start+(end-start)/2;//to neglect integer overflow.
+        int mid=start+((end-start)>>1);//to neglect integer overflow.
 
         if(a[mid]==key)
         {
