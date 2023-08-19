@@ -28,4 +28,9 @@ int main()
     {
         cout << value.first << " " << value.second << endl;
     }
+
+    string str="Animish Tripathy";
+    cout << str.size() << endl;
+    str=str.substr(0,str.size()-1);
+    cout << str;
 }
