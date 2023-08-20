@@ -18,7 +18,7 @@ void printfunction(vector<pair<int,int>>&v)
         cout << value.first << " " << value.second << endl;
     }
 }
-
+timepass
 int main()
 {
     int n;
