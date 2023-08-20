@@ -11,6 +11,13 @@ bool cmp(pair<int,int> a,pair<int,int> b)
         return a.second > b.second;
     }
 }
+void printfunction(vector<pair<int,int>>&v)
+{
+    for(auto &value:v)
+    {
+        cout << value.first << " " << value.second << endl;
+    }
+}
 
 int main()
 {
