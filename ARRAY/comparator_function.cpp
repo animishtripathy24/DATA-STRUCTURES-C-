@@ -41,4 +41,16 @@ int main()
     cout << str.size() << endl;
     str=str.substr(0,str.size()-1);
     cout << str;
+
+    //created a list
+    list<int>l;
+    l.push_front(1);
+    l.push_back(2);
+    l.push_back(3);
+    auto it=l.begin();
+    cout << endl;
+    for(;it != l.end();++it)
+    {
+        cout << *(it) << endl;
+    }
 }
