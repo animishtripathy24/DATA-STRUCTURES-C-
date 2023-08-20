@@ -13,6 +13,7 @@ bool cmp(pair<int,int> a,pair<int,int> b)
 }
 void printfunction(vector<pair<int,int>>&v)
 {
+    cout << "The given vector is :" << endl;
     for(auto &value:v)
     {
         cout << value.first << " " << value.second << endl;
