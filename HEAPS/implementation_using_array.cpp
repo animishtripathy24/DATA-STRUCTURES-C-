@@ -34,19 +34,14 @@ class Heap{
         {
             //val ka parent nikal lena hai..
             int parent=(index/2);
-
-            //uske baad val ko uske sahi position me leke aana hai..
-            while(index > 1)
+            if(arr[parent] < arr[index])
             {
-                if(arr[parent] < arr[index])
-                {
-                    swap(arr[parent],arr[index]);
-                    index=parent;
-                }
-                else
-                {
-                    return;
-                }
+                swap(arr[parent],arr[index]);
+                index=parent;
+            }
+            else
+            {
+                return;
             }
         }
     }
